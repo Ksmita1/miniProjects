@@ -1,0 +1,38 @@
+#filters {
+    display:flex;
+}
+
+ul.turai {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    
+}
+
+.vacation {
+    border: 1px solid #000;
+    padding: 10px;
+    width:300px;
+}
+
+button {
+    background-color: green;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.highlighted, .active {
+    background-color: #e7e7e7;
+}
+
+.active {
+    border:1px solid #000;
+    color:green;
+}
